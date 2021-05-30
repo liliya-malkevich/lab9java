@@ -1,5 +1,5 @@
 package Entity;
-
+//класс пользвателя
 public class ChatUser {
 
     private String name;
@@ -41,6 +41,7 @@ public class ChatUser {
     }
     public void setColorT(String color) {
         this.color = color;
+        
     }
     public String getSessionIdColor() {
         return sessionIdColor;
